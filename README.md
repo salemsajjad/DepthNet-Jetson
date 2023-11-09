@@ -21,8 +21,13 @@ https://github.com/NobuoTsukamoto/tensorrt-examples/tree/main/python/depth_estim
 
 U can see the results for an FP16 model running on NVIDIA Jetson Nano:
 
+640x360_FP16:
+
 ![640x360_FP16](https://github.com/salemsajjad/DepthNet-Jetson/assets/31271355/beb24167-c585-4608-aa23-d6016ccc2ec2)
 
+
+
+180x320_FP16:
 
 ![180x320_FP16](https://github.com/salemsajjad/DepthNet-Jetson/assets/31271355/436efaf3-f84a-41f5-96ca-57ab0213e4af)
 
