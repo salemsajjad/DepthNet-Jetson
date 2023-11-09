@@ -13,11 +13,11 @@ https://github.com/NobuoTsukamoto/tensorrt-examples/tree/main/python/depth_estim
 	--model <working_directory>/depthNet/PINTO_model_zoo/149_depth_estimation/saved_model_180x320/depth_estimation_mbnv2_180x320.onnx \
 	--output <working_directory>/tensorrt-examples/models/depth_estimation_mbnv2_180x320_fp16.trt \
 	--fp16
-4. After converting to trt, it needed to be inferenced on Jetson Nano.
+5. After converting to trt, it needed to be inferenced on Jetson Nano.
 	this section needs common.py as well as a script between trt_depth_estimation_capture.py 
 	and trt_depth_estimation_image.py
 	I have written a script named run_infet.py that can run the trt_depth_estimation_image.py
-5. All the files are stored in this directory.
+6. All the files are stored in this directory.
 
 U can see the results for an FP16 model running on NVIDIA Jetson Nano:
 
