@@ -10,8 +10,8 @@ https://github.com/NobuoTsukamoto/tensorrt-examples/tree/main/python/depth_estim
 3. The model should be converted to trt wit/without fp16 flag using this command:
 	this command needs to Python files: common.py and convertonnxgs2trt.py in the same directory.
 	$ python3 convert_onnxgs2trt.py \
-	--model /home/karabin/ADAS/depthNet/PINTO_model_zoo/149_depth_estimation/saved_model_180x320/depth_estimation_mbnv2_180x320.onnx \
-	--output /home/karabin/tensorrt-examples/models/depth_estimation_mbnv2_180x320_fp16.trt \
+	--model <working_directory>/depthNet/PINTO_model_zoo/149_depth_estimation/saved_model_180x320/depth_estimation_mbnv2_180x320.onnx \
+	--output <working_directory>/tensorrt-examples/models/depth_estimation_mbnv2_180x320_fp16.trt \
 	--fp16
 4. After converting to trt, it needed to be inferenced on Jetson Nano.
 	this section needs common.py as well as a script between trt_depth_estimation_capture.py 
