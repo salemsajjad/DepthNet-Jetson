@@ -1,5 +1,5 @@
 # DepthNet-Jetson
-Here are my sample codes to implement a pre-trained DepthNet model on NVIDIA Jetson Nano.
+Here are my Python codes to implement a pre-trained DepthNet model on NVIDIA Jetson Nano.
 
 # Implement DepthNet on Jetson Nano using this tutorial:
 
