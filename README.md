@@ -9,7 +9,6 @@ https://github.com/NobuoTsukamoto/tensorrt-examples/tree/main/python/depth_estim
 2. After that the model's data files should be stored via download.sh that exists in its particular directory.
 3. The model should be converted to trt wit/without fp16 flag using this command:
 	this command needs to Python files: common.py and convertonnxgs2trt.py in the same directory.
-	
  $ python3 convert_onnxgs2trt.py \
 	--model <working_directory>/depthNet/PINTO_model_zoo/149_depth_estimation/saved_model_180x320/depth_estimation_mbnv2_180x320.onnx \
 	--output <working_directory>/tensorrt-examples/models/depth_estimation_mbnv2_180x320_fp16.trt \
